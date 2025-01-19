@@ -164,6 +164,7 @@ nav>ul>li>a {
     justify-content: center;
     /* align-items: center; */
     width: 90%;
+    box-shadow: 8px 8px 15px gray;
 
 
 }
@@ -310,7 +311,8 @@ nav>ul>li>a {
         display: none;
     }
     .nav-links {
-        flex-direction: column;
+        flex-direction: row;
+        /* justify-content: center; */
         gap: 5px;
         padding-left: 0px;
         margin-top: 0rem;
@@ -333,8 +335,10 @@ nav>ul>li>a {
         margin: auto;
         margin-top: 0px;
         border-radius: 50px;
-
+        /* display: none; */
+        /* background-image: url("../images/camera.png"); */
     }
+
 
     .image>img {
         width: 80%;
