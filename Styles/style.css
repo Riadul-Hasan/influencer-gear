@@ -78,10 +78,8 @@ nav>ul>li>a {
     width: 480px;
     height: 484px;
     margin-top: 100px;
-
-
-
 }
+
 
 .image-part>img {
     size: 100%;
@@ -307,12 +305,13 @@ nav>ul>li>a {
         flex-direction: column;
     }
 
-    .hello{
+    /* .hello{
         display: none;
-    }
+    } */
     .nav-links {
         flex-direction: row;
         /* justify-content: center; */
+        text-align: center;
         gap: 5px;
         padding-left: 0px;
         margin-top: 0rem;
@@ -326,6 +325,7 @@ nav>ul>li>a {
         flex-direction: column-reverse;
         padding-top: 0px;
         padding-bottom: 0rem;
+        margin-top: 0rem;
     }
 
     .image-part {
@@ -335,10 +335,10 @@ nav>ul>li>a {
         margin: auto;
         margin-top: 0px;
         border-radius: 50px;
-        /* display: none; */
+        display: none;
         /* background-image: url("../images/camera.png"); */
     }
-
+    
 
     .image>img {
         width: 80%;
@@ -354,7 +354,7 @@ nav>ul>li>a {
     }
 
     .companies {
-        margin-top: 350px;
+        margin-top: 100px;
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         border: none;
